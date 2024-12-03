@@ -22,7 +22,7 @@ int main()
 	do
 	{
 		printf ("Nhap vao so ngay chi tieu (28<=n<=31): "); scanf ("%d",&n);
-	}while (n<0||n>day);
+	}while (n<28||n>day);
 	//Goi ham
 	nhapchitieu(A,n);	printf ("\n");
 	hienthichitieu(A,n);	printf ("\n");
